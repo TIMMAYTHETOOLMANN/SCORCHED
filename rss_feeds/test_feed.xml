@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Test RSS Feed</title>
+        <description>Test RSS feed for document extraction</description>
+        <link>https://example.com</link>
+        <item>
+            <title>Sample Document 1</title>
+            <description>A sample document entry</description>
+            <link>file:///tmp/sample.pdf</link>
+            <links>
+                <link href="file:///tmp/sample.pdf" type="application/pdf"/>
+            </links>
+        </item>
+        <item>
+            <title>Sample HTML Document</title>
+            <description>A sample HTML document entry</description>
+            <link>file:///tmp/sample.html</link>
+            <links>
+                <link href="file:///tmp/sample.html" type="text/html"/>
+            </links>
+        </item>
+    </channel>
+</rss>
