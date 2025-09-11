@@ -4,7 +4,25 @@ This repository contains tools for analyzing Nike's business operations, includi
 
 ## Tools Available
 
-### 1. Facility Geographic Mapping - Components & Equipment
+### 1. Nike Data Triangulator Auto Executor
+
+**NEW**: Advanced data triangulation engine that cross-references multiple Nike data sources for comprehensive business intelligence analysis.
+
+#### Quick Start - Triangulator
+
+```bash
+python scripts/triangulator_auto_executor.py
+```
+
+The triangulator analyzes and cross-references:
+- **Facility clusters** by geographic region and country  
+- **Operational patterns** across different facility types
+- **Workforce metrics** including gender and migrant worker composition
+- **Strategic insights** for supply chain optimization and risk assessment
+
+Generates comprehensive JSON reports with detailed analysis of Nike's global operations.
+
+### 2. Facility Geographic Mapping - Components & Equipment
 
 Interactive geographical mapping solution for visualizing Nike's manufacturing facilities.
 
@@ -15,8 +33,6 @@ The facility mapping solution creates an interactive geographical map showing:
 
 #### Quick Start - Facility Mapping
 
-### Generate the Map
-
 ```bash
 python3 facility_map_generator.py
 ```
@@ -25,7 +41,7 @@ python3 facility_map_generator.py
 
 Open `facility_locations_map.html` in any web browser to view the interactive map.
 
-### 2. SEC Filings Downloader
+### 3. SEC Filings Downloader
 
 Automated tool to download Nike's SEC filings (PDFs and Excel documents) from their investor relations website.
 
@@ -79,6 +95,15 @@ nike_sec_filings_2021/
 - **No Filings for a Year?**: If no filings are found for a year, the summary report will indicate this and the folder will remain empty except for logs and the summary.
 
 ## Features
+
+### Triangulator Features
+
+- **Multi-source integration**: Combines facility data, workforce metrics, and geographic information
+- **Cluster analysis**: Identifies facility concentrations and regional patterns
+- **Workforce analytics**: Analyzes gender distribution, migrant worker patterns, and facility sizing
+- **Strategic insights**: Provides supply chain optimization and risk assessment analysis
+- **Automated reporting**: Generates comprehensive JSON reports with actionable intelligence
+- **Logging integration**: Detailed logging for audit trails and debugging
 
 ### Facility Mapping Features
 
@@ -135,6 +160,11 @@ The map shows relationships between facility types:
 - No internet connection required to view the generated map
 
 ## Files
+
+### Triangulator Files
+- `scripts/triangulator_auto_executor.py` - Advanced Nike data triangulation engine
+- `nike_triangulation_report_*.json` - Generated comprehensive analysis reports
+- `triangulator.log` - Detailed execution logs
 
 ### Facility Mapping Files
 - `facility_map_generator.py` - Main mapping script
