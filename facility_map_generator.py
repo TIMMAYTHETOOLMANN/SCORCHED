@@ -13,7 +13,6 @@ import pandas as pd
 import folium
 import numpy as np
 from geopy.distance import geodesic
-import json
 import random
 
 # Constants
