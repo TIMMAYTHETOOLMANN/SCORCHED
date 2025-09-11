@@ -1,0 +1,79 @@
+{
+  "company": "Nike Inc.",
+  "download_date": "2025-09-11T00:42:11.119629",
+  "filings": [
+    {
+      "date": "2020-07-24",
+      "description": "Annual report pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934",
+      "title": "Nike Inc. Form 10-K Annual Report 2020",
+      "type": "pdf",
+      "url": "https://investors.nike.com/secfiling.cfm?filingID=1564590-20-27281&CIK=320187"
+    },
+    {
+      "date": "2020-09-22",
+      "description": "Quarterly report pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934",
+      "title": "Nike Inc. Form 10-Q Q1 2020",
+      "type": "pdf",
+      "url": "https://investors.nike.com/secfiling.cfm?filingID=1564590-20-44891&CIK=320187"
+    },
+    {
+      "date": "2020-12-18",
+      "description": "Quarterly report pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934",
+      "title": "Nike Inc. Form 10-Q Q2 2020",
+      "type": "pdf",
+      "url": "https://investors.nike.com/secfiling.cfm?filingID=1564590-20-57392&CIK=320187"
+    },
+    {
+      "date": "2020-03-25",
+      "description": "Quarterly report pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934",
+      "title": "Nike Inc. Form 10-Q Q3 2020",
+      "type": "pdf",
+      "url": "https://investors.nike.com/secfiling.cfm?filingID=1564590-21-11581&CIK=320187"
+    },
+    {
+      "date": "2020-08-13",
+      "description": "Definitive proxy statement",
+      "title": "Nike Inc. Proxy Statement DEF 14A 2020",
+      "type": "pdf",
+      "url": "https://investors.nike.com/secfiling.cfm?filingID=1564590-20-39847&CIK=320187"
+    },
+    {
+      "date": "2020-06-25",
+      "description": "Current report pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934",
+      "title": "Nike Inc. Form 8-K Current Report - Q4 2020 Earnings",
+      "type": "pdf",
+      "url": "https://investors.nike.com/secfiling.cfm?filingID=1564590-20-40129&CIK=320187"
+    },
+    {
+      "date": "2020-06-25",
+      "description": "Quarterly financial data in Excel format",
+      "title": "Nike Inc. Financial Data Supplement Q4 2020",
+      "type": "xlsx",
+      "url": "https://investors.nike.com/financial-data/q4-2020-supplement.xlsx"
+    },
+    {
+      "date": "2020-09-22",
+      "description": "Quarterly financial data in Excel format",
+      "title": "Nike Inc. Financial Data Supplement Q1 2020",
+      "type": "xlsx",
+      "url": "https://investors.nike.com/financial-data/q1-2020-supplement.xlsx"
+    },
+    {
+      "date": "2020-12-18",
+      "description": "Quarterly financial data in Excel format",
+      "title": "Nike Inc. Financial Data Supplement Q2 2020",
+      "type": "xls",
+      "url": "https://investors.nike.com/financial-data/q2-2020-supplement.xls"
+    },
+    {
+      "date": "2020-03-25",
+      "description": "Quarterly financial data in Excel format",
+      "title": "Nike Inc. Financial Data Supplement Q3 2020",
+      "type": "xlsx",
+      "url": "https://investors.nike.com/financial-data/q3-2020-supplement.xlsx"
+    }
+  ],
+  "source_url": "https://investors.nike.com/investors/news-events-and-reports/default.aspx",
+  "total_documents": 10,
+  "year": 2020
+}
