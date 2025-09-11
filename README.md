@@ -32,8 +32,11 @@ Automated tool to download Nike's SEC filings (PDFs and Excel documents) from th
 #### Quick Start - SEC Filings
 
 ```bash
-# Download actual SEC filings (requires internet access)
+# Download actual SEC filings for a single year (default: 2020)
 python3 sec_filings_downloader.py
+
+# Download SEC filings for a range of years (e.g., 2019 to 2025)
+python3 sec_filings_downloader.py --start_year 2019 --end_year 2025
 
 # Run demonstration with mock data
 python3 sec_filings_demo.py
@@ -41,10 +44,39 @@ python3 sec_filings_demo.py
 
 The SEC filings downloader will:
 - Scrape Nike's investor relations page at https://investors.nike.com/investors/news-events-and-reports/default.aspx
-- Filter for documents from 2020
+- Filter for documents from the specified year(s)
 - Download all PDF and XLS/XLSX files
-- Organize files in a structured directory
-- Create summary reports and indexes
+- Organize files in a structured directory for each year
+- Create summary reports and indexes for each year
+
+#### Output Example (Multi-Year)
+
+When you run the SEC filings downloader for a year range, it creates separate folders for each year:
+
+```
+nike_sec_filings_2019/
+    download_summary.txt
+    download.log
+    ...
+nike_sec_filings_2020/
+    Nike_Inc_Form_10-K_Annual_Report_2020.pdf
+    Nike_Inc_Form_10-Q_Q1_2020.pdf
+    ...
+    download_summary.txt
+    download.log
+    ...
+nike_sec_filings_2021/
+    download_summary.txt
+    download.log
+    ...
+... (and so on for each year)
+```
+
+- **PDF Documents**: SEC forms (10-K annual reports, 10-Q quarterly reports, 8-K current reports, DEF 14A proxy statements)
+- **Excel Documents**: Financial data supplements with detailed quarterly data
+- **Summary Reports**: Human-readable summaries and machine-readable indexes
+- **Documentation**: README explaining all downloaded files
+- **No Filings for a Year?**: If no filings are found for a year, the summary report will indicate this and the folder will remain empty except for logs and the summary.
 
 ## Features
 
@@ -135,31 +167,3 @@ pip install requests beautifulsoup4 selenium lxml webdriver-manager
 ```bash
 pip install pandas xlrd folium geopy numpy requests beautifulsoup4 selenium lxml webdriver-manager
 ```
-
-## SEC Filings Output
-
-When you run the SEC filings downloader, it creates:
-
-```
-nike_sec_filings_2020/
-├── Nike_Inc_Form_10-K_Annual_Report_2020.pdf
-├── Nike_Inc_Form_10-Q_Q1_2020.pdf
-├── Nike_Inc_Form_10-Q_Q2_2020.pdf
-├── Nike_Inc_Form_10-Q_Q3_2020.pdf
-├── Nike_Inc_Proxy_Statement_DEF_14A_2020.pdf
-├── Nike_Inc_Form_8-K_Current_Report_-_Q4_2020_Earning.pdf
-├── Nike_Inc_Financial_Data_Supplement_Q1_2020.xlsx
-├── Nike_Inc_Financial_Data_Supplement_Q2_2020.xls
-├── Nike_Inc_Financial_Data_Supplement_Q3_2020.xlsx
-├── Nike_Inc_Financial_Data_Supplement_Q4_2020.xlsx
-├── download_summary.txt
-├── filing_index.json
-├── README.txt
-└── download.log
-```
-
-The downloader provides:
-- **PDF Documents**: SEC forms (10-K annual reports, 10-Q quarterly reports, 8-K current reports, DEF 14A proxy statements)
-- **Excel Documents**: Financial data supplements with detailed quarterly data
-- **Summary Reports**: Human-readable summaries and machine-readable indexes
-- **Documentation**: README explaining all downloaded files

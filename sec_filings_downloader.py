@@ -13,6 +13,7 @@ import re
 import sys
 import time
 import logging
+import argparse
 from urllib.parse import urljoin, urlparse
 from pathlib import Path
 from datetime import datetime
@@ -355,9 +356,18 @@ def main():
     """Main function to run the SEC filings downloader."""
     print("Nike SEC Filings Downloader")
     print("=" * 30)
-    
-    downloader = NikeSECFilingsDownloader()
-    downloader.download_all_filings()
+
+    parser = argparse.ArgumentParser(description="Download Nike SEC filings for a range of years.")
+    parser.add_argument('--start_year', type=int, default=2020, help='Start year (inclusive)')
+    parser.add_argument('--end_year', type=int, default=2020, help='End year (inclusive)')
+    args = parser.parse_args()
+
+    for year in range(args.start_year, args.end_year + 1):
+        print(f"\nProcessing year: {year}")
+        download_dir = f"nike_sec_filings_{year}"
+        downloader = NikeSECFilingsDownloader(download_dir=download_dir)
+        downloader.target_year = year
+        downloader.download_all_filings()
 
 
 if __name__ == "__main__":
