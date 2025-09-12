@@ -94,13 +94,12 @@ log("README updated with mission reprioritization")
 
 # === Set Triangulator as default entry point ===
 default_entry = "main.py"
-if not os.path.exists(default_entry):
-    with open(default_entry, "w") as f:
-        f.write("""from scripts.triangulator_auto_executor import main
+with open(default_entry, "w") as f:
+    f.write("""from scripts.triangulator_auto_executor import main
 
 if __name__ == "__main__":
     main()
 """)
-    log(f"Created main.py with triangulator as default entry point")
+log(f"Set main.py with triangulator as default entry point")
 
 log("Nike repo structure reprioritized. Facility map sandboxed. SEC prosecution engine now mission control.")
