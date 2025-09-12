@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "filename": "Nike_Inc_Form_10-Q_Q3_2019.pdf",
+    "filepath": "/home/runner/work/SCORCHED/SCORCHED/filings/2019/Nike_Inc_Form_10-Q_Q3_2019.pdf",
+    "filesize": 758,
+    "modified_date": "2025-09-12T04:54:31.113309",
+    "year": "2019",
+    "form_type": "10-Q",
+    "quarter": "Q3",
+    "document_type": "Quarterly Report"
+  },
+  "pdf_info": {},
+  "text_analysis": {
+    "text_statistics": {
+      "total_characters": 46,
+      "total_words": 7,
+      "total_lines": 1,
+      "average_words_per_line": 7.0
+    },
+    "key_sections": [],
+    "financial_terms": [],
+    "business_terms": [],
+    "risk_indicators": []
+  },
+  "sample_text": "PyPDF2 extraction failed: EOF marker not found",
+  "extraction_method": "PyPDF2",
+  "extraction_timestamp": "2025-09-12T05:00:50.982353",
+  "full_text_available": true
+}

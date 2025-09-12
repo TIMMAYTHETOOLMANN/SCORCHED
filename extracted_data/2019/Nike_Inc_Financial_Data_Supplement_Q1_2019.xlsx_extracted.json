@@ -1,0 +1,13 @@
+{
+  "metadata": {
+    "filename": "Nike_Inc_Financial_Data_Supplement_Q1_2019.xlsx",
+    "filepath": "/home/runner/work/SCORCHED/SCORCHED/filings/2019/Nike_Inc_Financial_Data_Supplement_Q1_2019.xlsx",
+    "filesize": 523,
+    "modified_date": "2025-09-12T04:54:31.115309",
+    "year": "2019",
+    "file_type": "financial_supplement",
+    "quarter": "Q1"
+  },
+  "error": "Excel file format cannot be determined, you must specify an engine manually.",
+  "extraction_timestamp": "2025-09-12T05:00:41.901339"
+}
