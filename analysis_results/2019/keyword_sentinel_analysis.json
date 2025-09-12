@@ -1,7 +1,7 @@
 {
   "year": "2019",
   "analysis_metadata": {
-    "timestamp": "2025-09-12T05:00:58.737383",
+    "timestamp": "2025-09-12T07:23:46.254231",
     "keyword_categories_analyzed": 10,
     "total_keywords_defined": 117,
     "output_directory": "/home/runner/work/SCORCHED/SCORCHED/analysis_results/2019"
@@ -30,6 +30,18 @@
               "before_context": "er revenue (millions) net income (millions) gross",
               "after_context": "% operating margin % q1 2019 9610 1110 44.7 12.9",
               "full_context": "er revenue (millions) net income (millions) gross margin % operating margin % q1 2019 9610 1110 44.7 12.9"
+            }
+          ]
+        },
+        {
+          "keyword": "earnings",
+          "count": 1,
+          "contexts": [
+            {
+              "keyword": "earnings",
+              "before_context": "ent - nike inc. form 8-k current report - q4 2020",
+              "after_context": "",
+              "full_context": "ent - nike inc. form 8-k current report - q4 2020 earnings"
             }
           ]
         },
@@ -74,7 +86,7 @@
         "negative_score": 0.0,
         "neutral_score": 1.0,
         "sentiment_ratio": 0.0,
-        "total_contexts_analyzed": 4
+        "total_contexts_analyzed": 5
       },
       "business_segments": {
         "positive_score": 0,
@@ -158,7 +170,7 @@
       "key_themes": [
         {
           "theme": "financial_performance",
-          "total_mentions": 4
+          "total_mentions": 5
         },
         {
           "theme": "business_segments",
@@ -197,8 +209,8 @@
   "summary": {
     "total_keyword_categories": 10,
     "categories_with_matches": 1,
-    "total_unique_keywords_found": 4,
-    "total_keyword_occurrences": 4,
+    "total_unique_keywords_found": 5,
+    "total_keyword_occurrences": 5,
     "highest_sentiment_categories": [
       [
         "financial_performance",
