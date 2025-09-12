@@ -3,7 +3,7 @@
     "filename": "Nike_Inc_Proxy_Statement_DEF_14A_2019.pdf",
     "filepath": "/home/runner/work/SCORCHED/SCORCHED/filings/2019/Nike_Inc_Proxy_Statement_DEF_14A_2019.pdf",
     "filesize": 710,
-    "modified_date": "2025-09-12T07:20:37.106256",
+    "modified_date": "2025-09-12T13:41:03.846200",
     "year": "2019",
     "form_type": "DEF 14A",
     "quarter": null,
@@ -12,23 +12,18 @@
   "pdf_info": {},
   "text_analysis": {
     "text_statistics": {
-      "total_characters": 701,
-      "total_words": 103,
-      "total_lines": 17,
-      "average_words_per_line": 6.06
+      "total_characters": 46,
+      "total_words": 7,
+      "total_lines": 1,
+      "average_words_per_line": 7.0
     },
     "key_sections": [],
     "financial_terms": [],
-    "business_terms": [
-      {
-        "term": "nike",
-        "occurrences": 3
-      }
-    ],
+    "business_terms": [],
     "risk_indicators": []
   },
-  "sample_text": "MOCK PDF DOCUMENT - Nike Inc. Proxy Statement DEF 14A 2020\nDate: 2020-08-13\nType: Definitive proxy statement\nThis is a mock representation of the actual SEC filing document.\nIn a real scenario, this would be the actual PDF file downloaded from:\nhttps://investors.nike.com/secfiling.cfm?filingID=1564590-20-39847&CIK=320187\n--- MOCK CONTENT ---\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nFORM 10-K\nANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934\nFor the fiscal year ended May 31, 2020\nCommission File Number: 001-10635\nNIKE, Inc.\n(Exact name of registrant as specified in its charter)\n[This would contain the full SEC filing content...]",
-  "extraction_method": "basic",
-  "extraction_timestamp": "2025-09-12T07:23:28.523645",
+  "sample_text": "PyPDF2 extraction failed: EOF marker not found",
+  "extraction_method": "PyPDF2",
+  "extraction_timestamp": "2025-09-12T13:47:19.335883",
   "full_text_available": true
 }
