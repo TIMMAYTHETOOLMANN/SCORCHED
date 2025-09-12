@@ -88,7 +88,7 @@ python scripts/triangulator_auto_executor.py
 new_readme_lines = [prosecution_focus]
 
 with open(MAIN_README, "w") as f:
-    f.writelines(new_readme_lines)
+    f.write(prosecution_focus)
 
 log("README updated with mission reprioritization")
 
