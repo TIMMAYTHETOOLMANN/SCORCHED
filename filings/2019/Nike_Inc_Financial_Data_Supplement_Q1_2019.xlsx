@@ -1,0 +1,15 @@
+MOCK EXCEL DOCUMENT - Nike Inc. Financial Data Supplement Q1 2020
+Date: 2020-09-22
+Type: Quarterly financial data in Excel format
+
+This represents financial data that would typically be in Excel format.
+Actual URL: https://investors.nike.com/financial-data/q1-2020-supplement.xlsx
+
+--- MOCK FINANCIAL DATA ---
+Quarter,Revenue,Net Income,Gross Margin
+Q4 2020,6313.0,1506.0,44.7%
+Q3 2020,6672.3,1232.5,45.2%
+Q2 2020,10336.0,1543.0,43.8%
+Q1 2020,9366.0,862.0,44.7%
+
+[This would contain detailed financial spreadsheet data...]

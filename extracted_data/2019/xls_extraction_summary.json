@@ -1,0 +1,83 @@
+{
+  "year": "2019",
+  "extraction_metadata": {
+    "timestamp": "2025-09-12T05:00:15.990474",
+    "total_files_processed": 5,
+    "filings_directory": "/home/runner/work/SCORCHED/SCORCHED/filings/2019",
+    "output_directory": "/home/runner/work/SCORCHED/SCORCHED/extracted_data/2019"
+  },
+  "file_summary": {
+    "Nike_Inc_Financial_Sample_2019.xlsx": {
+      "status": "success",
+      "metadata": {
+        "filename": "Nike_Inc_Financial_Sample_2019.xlsx",
+        "filepath": "/home/runner/work/SCORCHED/SCORCHED/filings/2019/Nike_Inc_Financial_Sample_2019.xlsx",
+        "filesize": 5138,
+        "modified_date": "2025-09-12T05:00:07.891021",
+        "year": "2019",
+        "file_type": "unknown",
+        "quarter": null
+      },
+      "sheet_count": 1,
+      "total_rows": 4
+    },
+    "Nike_Inc_Financial_Data_Supplement_Q1_2019.xlsx": {
+      "status": "error",
+      "metadata": {
+        "filename": "Nike_Inc_Financial_Data_Supplement_Q1_2019.xlsx",
+        "filepath": "/home/runner/work/SCORCHED/SCORCHED/filings/2019/Nike_Inc_Financial_Data_Supplement_Q1_2019.xlsx",
+        "filesize": 523,
+        "modified_date": "2025-09-12T04:54:31.115309",
+        "year": "2019",
+        "file_type": "financial_supplement",
+        "quarter": "Q1"
+      },
+      "sheet_count": 0
+    },
+    "Nike_Inc_Financial_Data_Supplement_Q4_2019.xlsx": {
+      "status": "error",
+      "metadata": {
+        "filename": "Nike_Inc_Financial_Data_Supplement_Q4_2019.xlsx",
+        "filepath": "/home/runner/work/SCORCHED/SCORCHED/filings/2019/Nike_Inc_Financial_Data_Supplement_Q4_2019.xlsx",
+        "filesize": 523,
+        "modified_date": "2025-09-12T04:54:31.115309",
+        "year": "2019",
+        "file_type": "financial_supplement",
+        "quarter": "Q4"
+      },
+      "sheet_count": 0
+    },
+    "Nike_Inc_Financial_Data_Supplement_Q2_2019.xls": {
+      "status": "error",
+      "metadata": {
+        "filename": "Nike_Inc_Financial_Data_Supplement_Q2_2019.xls",
+        "filepath": "/home/runner/work/SCORCHED/SCORCHED/filings/2019/Nike_Inc_Financial_Data_Supplement_Q2_2019.xls",
+        "filesize": 522,
+        "modified_date": "2025-09-12T04:54:31.115309",
+        "year": "2019",
+        "file_type": "financial_supplement",
+        "quarter": "Q2"
+      },
+      "sheet_count": 0
+    },
+    "Nike_Inc_Financial_Data_Supplement_Q3_2019.xlsx": {
+      "status": "error",
+      "metadata": {
+        "filename": "Nike_Inc_Financial_Data_Supplement_Q3_2019.xlsx",
+        "filepath": "/home/runner/work/SCORCHED/SCORCHED/filings/2019/Nike_Inc_Financial_Data_Supplement_Q3_2019.xlsx",
+        "filesize": 523,
+        "modified_date": "2025-09-12T04:54:31.115309",
+        "year": "2019",
+        "file_type": "financial_supplement",
+        "quarter": "Q3"
+      },
+      "sheet_count": 0
+    }
+  },
+  "aggregate_stats": {
+    "total_sheets": 1,
+    "total_rows": 4,
+    "total_columns": 0,
+    "files_with_errors": 4
+  }
+}

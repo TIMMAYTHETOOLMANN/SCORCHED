@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "filename": "Nike_Inc_Financial_Sample_2019.xlsx",
+    "filepath": "/home/runner/work/SCORCHED/SCORCHED/filings/2019/Nike_Inc_Financial_Sample_2019.xlsx",
+    "filesize": 5138,
+    "modified_date": "2025-09-12T05:00:07.891021",
+    "year": "2019",
+    "file_type": "unknown",
+    "quarter": null
+  },
+  "sheets": {
+    "Sheet1": {
+      "shape": [
+        4,
+        5
+      ],
+      "columns": [
+        "Quarter",
+        "Revenue (Millions)",
+        "Net Income (Millions)",
+        "Gross Margin %",
+        "Operating Margin %"
+      ],
+      "data_summary": {
+        "row_count": 4,
+        "column_count": 5,
+        "non_null_cells": "20",
+        "null_cells": "0"
+      },
+      "sample_data": [
+        {
+          "Quarter": "Q1 2019",
+          "Revenue (Millions)": 9610,
+          "Net Income (Millions)": 1110,
+          "Gross Margin %": 44.7,
+          "Operating Margin %": 12.9
+        },
+        {
+          "Quarter": "Q2 2019",
+          "Revenue (Millions)": 10180,
+          "Net Income (Millions)": 989,
+          "Gross Margin %": 44.3,
+          "Operating Margin %": 13.1
+        },
+        {
+          "Quarter": "Q3 2019",
+          "Revenue (Millions)": 10330,
+          "Net Income (Millions)": 1128,
+          "Gross Margin %": 43.8,
+          "Operating Margin %": 12.8
+        },
+        {
+          "Quarter": "Q4 2019",
+          "Revenue (Millions)": 10110,
+          "Net Income (Millions)": 1456,
+          "Gross Margin %": 43.4,
+          "Operating Margin %": 13.9
+        }
+      ]
+    }
+  },
+  "extraction_timestamp": "2025-09-12T05:00:15.988353"
+}

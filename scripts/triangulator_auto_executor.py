@@ -243,11 +243,12 @@ class NikeDataTriangulator:
             self.logger.error(f"Error generating strategic insights: {e}")
             return {}
     
-    def generate_triangulation_report(self, output_file: str = None) -> str:
+    def generate_triangulation_report(self, year: str = None, output_file: str = None) -> str:
         """Generate comprehensive triangulation report."""
         if not output_file:
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            output_file = os.path.join(self.base_dir, f'nike_triangulation_report_{timestamp}.json')
+            year_suffix = f"_{year}" if year else ""
+            output_file = os.path.join(self.base_dir, f'nike_triangulation_report{year_suffix}_{timestamp}.json')
         
         self.logger.info(f"Generating triangulation report: {output_file}")
         
@@ -255,6 +256,7 @@ class NikeDataTriangulator:
             report = {
                 'metadata': {
                     'generated_at': datetime.now().isoformat(),
+                    'year_context': year if year else 'all_available_data',
                     'data_sources': [
                         self.facility_data_file,
                         self.json_data_file if self.geographic_data else None
@@ -279,9 +281,10 @@ class NikeDataTriangulator:
             self.logger.error(f"Error generating report: {e}")
             return ""
     
-    def execute_full_triangulation(self) -> bool:
+    def execute_full_triangulation(self, year: str = None) -> bool:
         """Execute complete triangulation analysis pipeline."""
-        self.logger.info("=== Starting Nike Data Triangulation Analysis ===")
+        year_info = f" for year {year}" if year else ""
+        self.logger.info(f"=== Starting Nike Data Triangulation Analysis{year_info} ===")
         
         # Step 1: Load data
         if not self.load_data_sources():
@@ -295,7 +298,7 @@ class NikeDataTriangulator:
         self.triangulate_strategic_insights()
         
         # Step 3: Generate report
-        report_file = self.generate_triangulation_report()
+        report_file = self.generate_triangulation_report(year)
         
         if report_file:
             self.logger.info("=== Triangulation Analysis Complete ===")
@@ -308,14 +311,26 @@ class NikeDataTriangulator:
 
 def main():
     """Main execution function for the triangulator auto executor."""
-    print("Nike Data Triangulator Auto Executor")
+    import argparse
+    
+    parser = argparse.ArgumentParser(description='Nike Data Triangulator Auto Executor')
+    parser.add_argument('--year', help='Year to process (e.g., 2019) - currently processes all available data')
+    parser.add_argument('--base-dir', help='Base directory path (optional)')
+    
+    args = parser.parse_args()
+    
+    year_info = f" - Year {args.year}" if args.year else ""
+    print(f"Nike Data Triangulator Auto Executor{year_info}")
     print("=" * 50)
     
+    if args.year:
+        print(f"Note: Processing facility data for analysis context (year parameter: {args.year})")
+    
     # Initialize triangulator
-    triangulator = NikeDataTriangulator()
+    triangulator = NikeDataTriangulator(args.base_dir)
     
     # Execute full triangulation
-    success = triangulator.execute_full_triangulation()
+    success = triangulator.execute_full_triangulation(args.year)
     
     if success:
         print("\n✅ Triangulation analysis completed successfully!")

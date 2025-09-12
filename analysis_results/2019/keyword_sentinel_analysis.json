@@ -1,0 +1,175 @@
+{
+  "year": "2019",
+  "analysis_metadata": {
+    "timestamp": "2025-09-12T04:59:26.309287",
+    "keyword_categories_analyzed": 10,
+    "total_keywords_defined": 117,
+    "output_directory": "/home/runner/work/SCORCHED/SCORCHED/analysis_results/2019"
+  },
+  "analysis_results": {
+    "keyword_matches": {
+      "financial_performance": [
+        {
+          "keyword": "earnings",
+          "count": 1,
+          "contexts": [
+            {
+              "keyword": "earnings",
+              "before_context": "ent - nike inc. form 8-k current report - q4 2020",
+              "after_context": "",
+              "full_context": "ent - nike inc. form 8-k current report - q4 2020 earnings"
+            }
+          ]
+        }
+      ],
+      "business_segments": [],
+      "geographic_markets": [],
+      "innovation_technology": [],
+      "risk_factors": [],
+      "competitive_landscape": [],
+      "strategic_initiatives": [],
+      "operational_metrics": [],
+      "consumer_trends": [],
+      "esg_sustainability": []
+    },
+    "sentiment_analysis": {
+      "financial_performance": {
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "neutral_score": 1.0,
+        "sentiment_ratio": 0.0,
+        "total_contexts_analyzed": 1
+      },
+      "business_segments": {
+        "positive_score": 0,
+        "negative_score": 0,
+        "neutral_score": 0,
+        "sentiment_ratio": 0,
+        "total_contexts_analyzed": 0
+      },
+      "geographic_markets": {
+        "positive_score": 0,
+        "negative_score": 0,
+        "neutral_score": 0,
+        "sentiment_ratio": 0,
+        "total_contexts_analyzed": 0
+      },
+      "innovation_technology": {
+        "positive_score": 0,
+        "negative_score": 0,
+        "neutral_score": 0,
+        "sentiment_ratio": 0,
+        "total_contexts_analyzed": 0
+      },
+      "risk_factors": {
+        "positive_score": 0,
+        "negative_score": 0,
+        "neutral_score": 0,
+        "sentiment_ratio": 0,
+        "total_contexts_analyzed": 0
+      },
+      "competitive_landscape": {
+        "positive_score": 0,
+        "negative_score": 0,
+        "neutral_score": 0,
+        "sentiment_ratio": 0,
+        "total_contexts_analyzed": 0
+      },
+      "strategic_initiatives": {
+        "positive_score": 0,
+        "negative_score": 0,
+        "neutral_score": 0,
+        "sentiment_ratio": 0,
+        "total_contexts_analyzed": 0
+      },
+      "operational_metrics": {
+        "positive_score": 0,
+        "negative_score": 0,
+        "neutral_score": 0,
+        "sentiment_ratio": 0,
+        "total_contexts_analyzed": 0
+      },
+      "consumer_trends": {
+        "positive_score": 0,
+        "negative_score": 0,
+        "neutral_score": 0,
+        "sentiment_ratio": 0,
+        "total_contexts_analyzed": 0
+      },
+      "esg_sustainability": {
+        "positive_score": 0,
+        "negative_score": 0,
+        "neutral_score": 0,
+        "sentiment_ratio": 0,
+        "total_contexts_analyzed": 0
+      }
+    },
+    "risk_indicators": {
+      "high_frequency_risks": [],
+      "emerging_risks": [],
+      "risk_categories": {},
+      "risk_sentiment": {}
+    },
+    "opportunity_indicators": {
+      "growth_drivers": [],
+      "strategic_opportunities": [],
+      "innovation_areas": [],
+      "market_opportunities": []
+    },
+    "competitive_intelligence": {},
+    "financial_sentiment": {},
+    "strategic_insights": {
+      "key_themes": [
+        {
+          "theme": "financial_performance",
+          "total_mentions": 1
+        },
+        {
+          "theme": "business_segments",
+          "total_mentions": 0
+        },
+        {
+          "theme": "geographic_markets",
+          "total_mentions": 0
+        },
+        {
+          "theme": "innovation_technology",
+          "total_mentions": 0
+        },
+        {
+          "theme": "risk_factors",
+          "total_mentions": 0
+        },
+        {
+          "theme": "competitive_landscape",
+          "total_mentions": 0
+        },
+        {
+          "theme": "strategic_initiatives",
+          "total_mentions": 0
+        },
+        {
+          "theme": "operational_metrics",
+          "total_mentions": 0
+        }
+      ],
+      "business_focus_areas": [],
+      "competitive_positioning": [],
+      "strategic_priorities": []
+    }
+  },
+  "summary": {
+    "total_keyword_categories": 10,
+    "categories_with_matches": 1,
+    "total_unique_keywords_found": 1,
+    "total_keyword_occurrences": 1,
+    "highest_sentiment_categories": [
+      [
+        "financial_performance",
+        0.0
+      ]
+    ],
+    "top_risk_indicators": [],
+    "top_opportunities": []
+  }
+}
