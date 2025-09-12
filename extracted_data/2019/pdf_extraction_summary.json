@@ -1,12 +1,12 @@
 {
   "year": "2019",
   "extraction_metadata": {
-    "timestamp": "2025-09-12T05:00:50.983678",
+    "timestamp": "2025-09-12T07:23:28.523834",
     "total_files_processed": 6,
     "filings_directory": "/home/runner/work/SCORCHED/SCORCHED/filings/2019",
     "output_directory": "/home/runner/work/SCORCHED/SCORCHED/extracted_data/2019",
     "pdf_libraries_available": {
-      "PyPDF2": true,
+      "PyPDF2": false,
       "pdfplumber": false
     }
   },
@@ -17,18 +17,18 @@
         "filename": "Nike_Inc_Form_10-Q_Q1_2019.pdf",
         "filepath": "/home/runner/work/SCORCHED/SCORCHED/filings/2019/Nike_Inc_Form_10-Q_Q1_2019.pdf",
         "filesize": 758,
-        "modified_date": "2025-09-12T04:54:31.113309",
+        "modified_date": "2025-09-12T07:20:37.106256",
         "year": "2019",
         "form_type": "10-Q",
         "quarter": "Q1",
         "document_type": "Quarterly Report"
       },
-      "extraction_method": "PyPDF2",
+      "extraction_method": "basic",
       "text_available": true,
-      "total_characters": 46,
-      "total_words": 7,
-      "total_lines": 1,
-      "average_words_per_line": 7.0
+      "total_characters": 749,
+      "total_words": 114,
+      "total_lines": 17,
+      "average_words_per_line": 6.71
     },
     "Nike_Inc_Form_10-Q_Q2_2019.pdf": {
       "status": "success",
@@ -36,18 +36,18 @@
         "filename": "Nike_Inc_Form_10-Q_Q2_2019.pdf",
         "filepath": "/home/runner/work/SCORCHED/SCORCHED/filings/2019/Nike_Inc_Form_10-Q_Q2_2019.pdf",
         "filesize": 758,
-        "modified_date": "2025-09-12T04:54:31.113309",
+        "modified_date": "2025-09-12T07:20:37.106256",
         "year": "2019",
         "form_type": "10-Q",
         "quarter": "Q2",
         "document_type": "Quarterly Report"
       },
-      "extraction_method": "PyPDF2",
+      "extraction_method": "basic",
       "text_available": true,
-      "total_characters": 46,
-      "total_words": 7,
-      "total_lines": 1,
-      "average_words_per_line": 7.0
+      "total_characters": 749,
+      "total_words": 114,
+      "total_lines": 17,
+      "average_words_per_line": 6.71
     },
     "Nike_Inc_Form_8-K_Current_Report_-_Q4_2019_Earning.pdf": {
       "status": "success",
@@ -55,18 +55,18 @@
         "filename": "Nike_Inc_Form_8-K_Current_Report_-_Q4_2019_Earning.pdf",
         "filepath": "/home/runner/work/SCORCHED/SCORCHED/filings/2019/Nike_Inc_Form_8-K_Current_Report_-_Q4_2019_Earning.pdf",
         "filesize": 783,
-        "modified_date": "2025-09-12T04:54:31.113309",
+        "modified_date": "2025-09-12T07:20:37.106256",
         "year": "2019",
         "form_type": "8-K",
         "quarter": "Q4",
         "document_type": "Quarterly Report"
       },
-      "extraction_method": "PyPDF2",
+      "extraction_method": "basic",
       "text_available": true,
-      "total_characters": 46,
-      "total_words": 7,
-      "total_lines": 1,
-      "average_words_per_line": 7.0
+      "total_characters": 774,
+      "total_words": 118,
+      "total_lines": 17,
+      "average_words_per_line": 6.94
     },
     "Nike_Inc_Form_10-Q_Q3_2019.pdf": {
       "status": "success",
@@ -74,18 +74,18 @@
         "filename": "Nike_Inc_Form_10-Q_Q3_2019.pdf",
         "filepath": "/home/runner/work/SCORCHED/SCORCHED/filings/2019/Nike_Inc_Form_10-Q_Q3_2019.pdf",
         "filesize": 758,
-        "modified_date": "2025-09-12T04:54:31.113309",
+        "modified_date": "2025-09-12T07:20:37.106256",
         "year": "2019",
         "form_type": "10-Q",
         "quarter": "Q3",
         "document_type": "Quarterly Report"
       },
-      "extraction_method": "PyPDF2",
+      "extraction_method": "basic",
       "text_available": true,
-      "total_characters": 46,
-      "total_words": 7,
-      "total_lines": 1,
-      "average_words_per_line": 7.0
+      "total_characters": 749,
+      "total_words": 114,
+      "total_lines": 17,
+      "average_words_per_line": 6.71
     },
     "Nike_Inc_Form_10-K_Annual_Report_2019.pdf": {
       "status": "success",
@@ -93,18 +93,18 @@
         "filename": "Nike_Inc_Form_10-K_Annual_Report_2019.pdf",
         "filepath": "/home/runner/work/SCORCHED/SCORCHED/filings/2019/Nike_Inc_Form_10-K_Annual_Report_2019.pdf",
         "filesize": 770,
-        "modified_date": "2025-09-12T04:54:31.113309",
+        "modified_date": "2025-09-12T07:20:37.106256",
         "year": "2019",
         "form_type": "10-K",
         "quarter": null,
         "document_type": "Annual Report"
       },
-      "extraction_method": "PyPDF2",
+      "extraction_method": "basic",
       "text_available": true,
-      "total_characters": 46,
-      "total_words": 7,
-      "total_lines": 1,
-      "average_words_per_line": 7.0
+      "total_characters": 761,
+      "total_words": 115,
+      "total_lines": 17,
+      "average_words_per_line": 6.76
     },
     "Nike_Inc_Proxy_Statement_DEF_14A_2019.pdf": {
       "status": "success",
@@ -112,23 +112,23 @@
         "filename": "Nike_Inc_Proxy_Statement_DEF_14A_2019.pdf",
         "filepath": "/home/runner/work/SCORCHED/SCORCHED/filings/2019/Nike_Inc_Proxy_Statement_DEF_14A_2019.pdf",
         "filesize": 710,
-        "modified_date": "2025-09-12T04:54:31.113309",
+        "modified_date": "2025-09-12T07:20:37.106256",
         "year": "2019",
         "form_type": "DEF 14A",
         "quarter": null,
         "document_type": "Proxy Statement"
       },
-      "extraction_method": "PyPDF2",
+      "extraction_method": "basic",
       "text_available": true,
-      "total_characters": 46,
-      "total_words": 7,
-      "total_lines": 1,
-      "average_words_per_line": 7.0
+      "total_characters": 701,
+      "total_words": 103,
+      "total_lines": 17,
+      "average_words_per_line": 6.06
     }
   },
   "aggregate_stats": {
-    "total_characters": 276,
-    "total_words": 42,
+    "total_characters": 4483,
+    "total_words": 678,
     "files_with_errors": 0,
     "form_types": {
       "10-Q": 3,
