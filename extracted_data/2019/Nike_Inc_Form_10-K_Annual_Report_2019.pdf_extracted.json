@@ -12,23 +12,18 @@
   "pdf_info": {},
   "text_analysis": {
     "text_statistics": {
-      "total_characters": 761,
-      "total_words": 115,
-      "total_lines": 17,
-      "average_words_per_line": 6.76
+      "total_characters": 46,
+      "total_words": 7,
+      "total_lines": 1,
+      "average_words_per_line": 7.0
     },
     "key_sections": [],
     "financial_terms": [],
-    "business_terms": [
-      {
-        "term": "nike",
-        "occurrences": 3
-      }
-    ],
+    "business_terms": [],
     "risk_indicators": []
   },
-  "sample_text": "MOCK PDF DOCUMENT - Nike Inc. Form 10-K Annual Report 2020\nDate: 2020-07-24\nType: Annual report pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934\nThis is a mock representation of the actual SEC filing document.\nIn a real scenario, this would be the actual PDF file downloaded from:\nhttps://investors.nike.com/secfiling.cfm?filingID=1564590-20-27281&CIK=320187\n--- MOCK CONTENT ---\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nFORM Report\nANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934\nFor the fiscal year ended May 31, 2020\nCommission File Number: 001-10635\nNIKE, Inc.\n(Exact name of registrant as specified in its charter)\n[This would contain the full SEC filing content...]",
-  "extraction_method": "basic",
-  "extraction_timestamp": "2025-09-12T04:59:10.826017",
+  "sample_text": "PyPDF2 extraction failed: EOF marker not found",
+  "extraction_method": "PyPDF2",
+  "extraction_timestamp": "2025-09-12T05:00:50.982902",
   "full_text_available": true
 }

@@ -1,7 +1,7 @@
 {
   "year": "2019",
   "extraction_metadata": {
-    "timestamp": "2025-09-12T05:00:15.990474",
+    "timestamp": "2025-09-12T05:00:41.902924",
     "total_files_processed": 5,
     "filings_directory": "/home/runner/work/SCORCHED/SCORCHED/filings/2019",
     "output_directory": "/home/runner/work/SCORCHED/SCORCHED/extracted_data/2019"

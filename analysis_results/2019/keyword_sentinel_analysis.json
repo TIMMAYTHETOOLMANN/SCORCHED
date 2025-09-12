@@ -1,7 +1,7 @@
 {
   "year": "2019",
   "analysis_metadata": {
-    "timestamp": "2025-09-12T04:59:26.309287",
+    "timestamp": "2025-09-12T05:00:58.737383",
     "keyword_categories_analyzed": 10,
     "total_keywords_defined": 117,
     "output_directory": "/home/runner/work/SCORCHED/SCORCHED/analysis_results/2019"
@@ -10,14 +10,50 @@
     "keyword_matches": {
       "financial_performance": [
         {
-          "keyword": "earnings",
+          "keyword": "revenue",
           "count": 1,
           "contexts": [
             {
-              "keyword": "earnings",
-              "before_context": "ent - nike inc. form 8-k current report - q4 2020",
-              "after_context": "",
-              "full_context": "ent - nike inc. form 8-k current report - q4 2020 earnings"
+              "keyword": "revenue",
+              "before_context": "quarter",
+              "after_context": "(millions) net income (millions) gross margin % o",
+              "full_context": "quarter revenue (millions) net income (millions) gross margin % o"
+            }
+          ]
+        },
+        {
+          "keyword": "margin",
+          "count": 1,
+          "contexts": [
+            {
+              "keyword": "margin",
+              "before_context": "er revenue (millions) net income (millions) gross",
+              "after_context": "% operating margin % q1 2019 9610 1110 44.7 12.9",
+              "full_context": "er revenue (millions) net income (millions) gross margin % operating margin % q1 2019 9610 1110 44.7 12.9"
+            }
+          ]
+        },
+        {
+          "keyword": "income",
+          "count": 1,
+          "contexts": [
+            {
+              "keyword": "income",
+              "before_context": "quarter revenue (millions) net",
+              "after_context": "(millions) gross margin % operating margin % q1 2",
+              "full_context": "quarter revenue (millions) net income (millions) gross margin % operating margin % q1 2"
+            }
+          ]
+        },
+        {
+          "keyword": "net income",
+          "count": 1,
+          "contexts": [
+            {
+              "keyword": "net income",
+              "before_context": "quarter revenue (millions)",
+              "after_context": "(millions) gross margin % operating margin % q1 2",
+              "full_context": "quarter revenue (millions) net income (millions) gross margin % operating margin % q1 2"
             }
           ]
         }
@@ -38,7 +74,7 @@
         "negative_score": 0.0,
         "neutral_score": 1.0,
         "sentiment_ratio": 0.0,
-        "total_contexts_analyzed": 1
+        "total_contexts_analyzed": 4
       },
       "business_segments": {
         "positive_score": 0,
@@ -122,7 +158,7 @@
       "key_themes": [
         {
           "theme": "financial_performance",
-          "total_mentions": 1
+          "total_mentions": 4
         },
         {
           "theme": "business_segments",
@@ -161,8 +197,8 @@
   "summary": {
     "total_keyword_categories": 10,
     "categories_with_matches": 1,
-    "total_unique_keywords_found": 1,
-    "total_keyword_occurrences": 1,
+    "total_unique_keywords_found": 4,
+    "total_keyword_occurrences": 4,
     "highest_sentiment_categories": [
       [
         "financial_performance",
